@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.31
+ * @version 1.37
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -14,12 +14,6 @@
 /* Icons by Mwittrien */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
-/* Invites Redesign - Disease */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
-
-/* Better Inbox - Disease */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
-
 /* Plugins/Themes Counter - Skamt */
 @import url("https://raw.githack.com/Skamt/BDAddons/main/CSS/AddonsCounter.css");
 
@@ -29,11 +23,8 @@
 /* Normalized Forums - Disease */
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/NormalizedForums.css);
 
-/* Account Details Columns - Deceiving */
-@import url(https://dablulite.github.io/accountdetailscolumns/import.css);
-
-/* Old Title Bar - Gibbu */
-@import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
+/* Spotify Activity Redesign - DaBluLite */
+@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
 
 /* Old Discord Font - Overimagine */
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
@@ -45,7 +36,11 @@
 	--background-tertiary: rgba(0, 0, 0, 0.5);                     /*                                                                        */
 	--border-primary: #5c5c5c;                                     /*                                                                        */
 	--border-secondary: #c0c0c0;                                   /*                                                                        */
-	--control-brand-foreground: #3a496b!important;                 /*                                                                        */
+	--control-brand-foreground: #3a496b!important;                 /* Category Title Text Color                                              */
+	--category-title-text-color: #3973AC;                          /* Channel State Text Colors                                              */
+	--unread-channel-text: #ffffff;                                /*                                                                        */
+	--default-channel-text: #949BA4;                               /*                                                                        */
+	--muted-channel-text: #4E5058;                                 /*                                                                        */
 	--brand-experiment: #3a496b!important;                         /* Selection Colors                                                       */
 	--selection-background: #265d96;                               /*                                                                        */
 	--selection-text: #ffffff;                                     /* Red Button Colors                                                      */
